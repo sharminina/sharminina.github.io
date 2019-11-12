@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+.header{
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    background-position:
+    top 0px left 0px,
+    bottom 0px right 0px;
+    background-image:
+      url("../../images/img_01.png"),
+      url("../../images/img_02.png");
+  background-size: 500px,800px;
+  font-family: 'Lato', sans-serif;
+}
+nav,nav a{
+    color: #222222 !important;
+}
+.bg-custom{
+    background: transparent !important;
+   
+}
+.add-padd{
+    padding-top:30px;
+}
+.h-pad{
+    padding-left: 45px;
+    font-size:25px !important;
+    font-weight: bolder;
+}
+.navbar-collapse{
+padding-right: 50px;
+}
+li.nav-item > a{
+    font-size:25px;
+    margin-left:50px;
+    font-weight: normal;
+    color: #52638F !important;
+}
+.main-tag{
+    
+   
+    font-size:43px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+.content{
+    position: absolute;
+    top:150px;
+    color:#52638F;
+    padding-left: 45px;
+
+}
+.para{
+font-size: 20px;
+line-height: 25px;
+}
+.rightie{
+    margin-left:30px;
+}
+.buttons>button{
+    background-color: #B3EAFF !important;
+    color: #52638F;
+    font-weight: bold;
+    border-radius: 25px;
+    padding-left:18px;
+    padding-right: 18px;
+}
+.social{
+    margin-top:50px;
+}
+.social > button{
+   background-color: #52638F !important;
+   margin-right: 5px;
+   outline: none !important;
+       box-shadow: none !important;
+       border: none !important;
+        color: aliceblue;
+       /*  padding: 12px 16px;
+        font-size: 16px; */
+   
+}
+img.img-load{
+    position: fixed;
+   top:30%;
+   right:7%;
+   height: auto;
+   width: 480px;
+
+}
+
+/*media query*/
+@media all and (min-width:300px) and (max-width:711px){
+    .header{
+        background-size: 400px,600px;
+    }
+  
+}
+@media all and (min-width:300px) and (max-width:990px){
+.navbar-collapse{
+    background: white;
+    padding-left: 10px;
+    padding-right: initial;
+}
+.nav-item{
+    
+    margin-left:initial;
+   
+    
+}
+.h-pad{
+    padding-left: initial;
+}
+
+.header{
+    background-size: 400px,600px;
+}
+}
+@media all and (min-width:768px) and (max-width:991px){
+    .content{
+        top: 60px;
+    }
+    .social{
+        margin-top:20px;
+    }
+    .rightie{
+        margin-left:initial;
+        margin-top:6px;
+    }
+    img.img-load{
+
+right: 2%;
+    }
+}
+@media all and (min-width:300px) and (max-width:767px){
+    .content{
+        position: unset;
+    }
+    img.img-load{
+        position: unset;
+        margin-top: 30px;
+    }
+    .buttons>button{
+        color: #B3EAFF !important;
+        background-color: #52638F !important;
+        
+    }
+    .content{
+        padding-left: 15px;
+    }
+  
+}
+ @media all and (min-width:300px)and (max-width:341px){
+    .buttons>button{
+        display: block;
+    } 
+    .rightie{
+         margin-left: initial;
+         margin-top: 6px;
+     }
+ }

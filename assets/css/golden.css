@@ -1,0 +1,419 @@
+/*common code*/
+@font-face{
+    font-family:"montbold";
+    src:url("../webfonts/Montserrat-Bold.ttf");
+}
+@font-face{
+    font-family:"rotoslab";
+    src:url("../webfonts/RobotoSlab-Regular.ttf");
+}
+@font-face{
+    font-family:"montreg";
+    src:url("../webfonts/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family:"meriitalic";
+    src:url("../webfonts/Merriweather-Italic.ttf");
+}
+.section-heading{
+    padding: 50px 0;
+    text-align: center;
+}
+.section-heading h1{
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'montbold';
+    font-size: 30px;
+    
+}
+.section-heading p{
+    color: #777777;
+    font-family: meriitalic;
+    padding: 5px 0;
+    font-size: 15px;
+    
+}
+/*header-area starts*/
+.header-area{
+    background: url("../../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+}
+.header-area .header-layer{
+    background-color: rgba(0,0,0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+ .header-area .header-top{
+ padding-top: 24px;
+}
+.header-top .menu-area{
+    
+}
+.menu-area ul{
+    list-style-type: none;
+    display: flex;
+}
+.menu-area ul li{
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-family: 'montreg';
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu-area ul li a{
+    color: #cac9ca;
+    text-decoration: none !important;
+}
+.header-area .header-bottom{
+    text-align: center;
+    color: #fff;
+}
+.header-bottom .header-text{
+    margin-top: 200px;
+    
+}
+.header-text span{
+    font-family: 'meriitalic';
+    font-size: 30px;
+    font-style: italic;
+    
+}
+.header-text h1{
+    font-family: ''montbold'';
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.header-bottom .header-button{
+    padding: 20px 0;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.header-button a {
+    background-color: #fed136;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: ''montbold'';
+    font-size: 15px;
+    
+}
+/*service area starts*/
+.service-area{
+    padding-top: 60px;
+    
+}
+.service-item{
+    padding: 15px 0;
+    text-align: center;
+    
+}
+.service-item .service-logo{
+    padding: 15px 15px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #fed136;
+    justify-content: center;
+    align-items: center;
+}
+.service-item .service-text{
+    padding-top: 15px;
+    
+    
+}
+.service-text h5{
+    font-family: ''montbold'';
+    text-transform: capitalize;
+    padding: 5px 0;
+    color: #222222;
+}
+.service-text p{
+    font-family: 'rotoslab';
+    color: #929292;
+    font-size: 15px;
+    padding-bottom:40px;
+    
+    
+}
+/*portfolio*/
+.portfolio-area{
+    margin: 40px 0;
+    background: #f7f7f7;
+    padding: 70px 0;
+   
+}
+.portfolio-area .port-gallery{
+    padding: 15px 0;
+}
+
+.gallery-item{
+    padding: 20px 0;
+    
+    
+}
+.gallery-item .port-image img
+{width: 100%;
+}
+
+.gallery-item .gallery-text{
+    background: white;
+    padding: 12px 0;
+}
+.gallery-item .gallery-text h5{
+    text-align: center;
+    color: #333333;
+    font-family:' 'montbold'';
+    
+}
+.gallery-item .gallery-text p{
+    text-align: center;
+    color: #868686;
+    font-family:' meriitalic';
+    
+}
+/*about section*/
+.about-area{
+    padding: 20px 0;
+}
+.about-item h4{
+    color: #222222;
+    font-family: 'montbold';
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+.about-item h5{
+    color: #222222;
+    font-family: 'montbold';
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.about-item p{
+    color: #929292;
+    font-family: 'rotoslab';
+}
+.about-item .about-t-left{
+    text-align: right;
+    padding: 0;
+}
+.about-item .about-t-right{
+    text-align: left;
+    padding: 0;
+    
+    
+}
+.about-item .about-image{
+    padding: 0;
+    
+}
+.about-item .about-image img{
+    margin: 0 auto;
+    margin-left: 80px;
+
+    
+}
+.about-end
+{ margin-top: 50px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #fed136;
+    border: 6px solid #f1f1f1;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+.about-end p{
+    padding:30px 23px;
+    color: white;
+    font-family: 'montbold';
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+/*team-area starts*/
+.team-area{
+    padding: 20px 0;
+    background: #f9f9f9;
+}
+.team-area .team-member{
+    padding: 30px 0;
+}
+.team-member .member-image{
+    padding: 0 50px;
+    
+}
+.team-member .member-image img{
+    border-radius: 50%;
+    border:5px solid white;
+}
+.team-member .member-title{
+    padding: 10px 0;
+    text-align: center;
+}
+.team-member .member-title h5{
+    font-family: 'montbold';
+    text-transform: capitalize;
+    color: #222222;
+}
+.team-member .member-title p{
+    font-family: 'rotoslab';
+    text-transform: capitalize;
+    color: #777777;
+}
+.team-member .member-social{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.member-social .facebook,.twitter,.googlep,.pinter{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:3px solid #222222; 
+    margin-right: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.member-social .fa{
+    color: #222222;
+}
+.member-social:hover .fa{
+    color: white;
+}
+.facebook:hover{
+    background: #3b5998;
+    border: transparent;
+}
+.twitter:hover{
+    background: #55acee;
+    border: transparent;
+}
+.googlep:hover{
+    background: #dd4b39;
+    border: transparent;
+}
+.pinter:hover{
+    background: #cb2028;
+    border: transparent;
+}
+.team-footer{
+    padding: 15px 0;
+}
+.team-footer p{
+    text-align:center;
+    font-family: 'rotoslab';
+    color: #777777;
+    font-size: 15px;
+}
+
+/*plug in area */
+.plugin-area{
+    margin-top: 30px;
+    padding: 50px 150px;
+}
+.plug-item{
+    padding:30px 0;
+}
+/*contact page*/
+.contact-area{
+    margin-top: 30px;
+    background:url("../../images/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.contact-area .section-heading h1{
+    color: #fff;
+    
+}
+.contact-area .section-form .left-part input{
+    font-family: 'montbold';
+    color: #d2d2d2;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 25px;
+    height: 60px;
+}
+.section-form .msg-div input{
+    height: 230px;
+    margin-bottom: 25px;
+    font-family: 'montbold';
+    color: #d2d2d2;
+    font-weight: 100;
+    font-size: 15px;
+    
+}
+.section-form .btn-submit{
+   padding-top: 30px;
+    padding-bottom: 80px;
+}    
+.btn-submit input[type=submit]{
+    height: 60px;
+    width:250px;
+    background: #fed136;
+    color: #fff;
+    font-family: 'montbold';
+    text-transform: uppercase;
+    font-size: 16px;
+    border: transparent;
+    margin: 0 auto;
+}
+/*footer*/
+.footer-area{
+    margin-top: 40px;
+}
+.copyright{
+    font-family:montreg;
+    padding: 20px 0;
+}
+.copyright h5{
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: bold;
+}
+.copyright h5 a{
+   color: #6c6c6c; 
+}
+
+.copyright h5 a:hover{
+    text-decoration: none;
+}
+.social-area{
+    padding: 20px 0;
+    display: flex;
+}
+.social-area .social-icon{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background: #222222;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-area .social-icon i{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 14px;
+}
+.social-icon:nth-child(1):hover{
+    background-color: #00aced;
+}
+.social-icon:nth-child(2):hover{
+    background-color: #3b5998;
+}
+.social-icon:nth-child(3):hover{
+    background-color: #cb2028;
+}
+.social-icon:nth-child(4):hover{
+    background-color: #da2713;
+}

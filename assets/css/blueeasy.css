@@ -1,0 +1,349 @@
+/*header area starts*/
+.body{
+    font-family: Segoe UI;
+}
+
+.header-area{
+    background: rgba(53,63,70,0.7);
+    
+  
+}
+.logo-area{
+    
+   margin: 0 auto;
+   padding: 30px 0;
+}
+.menu-area{
+   padding: 30px 0;
+}
+.menu-area ul{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu-area ul li a{
+    
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    text-transform:uppercase;
+    padding: 0 15px;
+}
+.menu-area ul li a:hover{
+    color:#4bcaff;
+    border:2px solid #4bcaff;
+    text-decoration: none;
+    
+}
+/*slider-area*/
+
+.slider-area{
+	width:100%;
+    
+	
+}
+.slider-img img{
+	width:100%;
+    height:500px;
+}
+.slider-text{
+	position:absolute;
+	top:50%;
+    left:50%;
+	transform:translate(-50%,-50%); /*to bring the text into middle*/
+}
+
+.slider-img{
+	width:100%;
+	position:relative;
+}
+.slider-text h2{
+	text-transform:uppercase;
+	color:#F5F5F5;
+    font-size: 30px;
+    font-weight: normal;
+    white-space: nowrap;
+    background: rgba(53,63,70,0.7);
+    text-align: center;
+}
+/*services*/
+.service-area{
+    background: #4bcaff;
+    padding: 30px 0;
+}
+.section-heading{
+    color: #fff;
+   
+}
+.section-heading h2{
+
+font-weight: normal;
+text-transform: uppercase;
+font-size: 25px;
+padding: 10px 0;
+    
+}
+.section-heading h2:after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: #fff;
+}
+.service{
+    padding: 10px 0;
+}
+
+.service-text{
+    padding: 15px 0;
+    color: #fff;
+}
+.service-text h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.service-text p{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: justify;
+}
+/*portfolio*/
+.portfolio-area{
+    padding: 30px 0;
+    color: #515f67;
+}
+.port-heading{
+    padding: 20px 0;
+}
+.port-heading h4{
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 25px;
+    
+}
+.port-heading h4:after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: #515f67;
+}
+.port-menu{
+    padding:20px 0; 
+    
+}
+.port-menu ul{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.port-menu ul li a{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #515f67;
+    text-transform:uppercase;
+    font-weight: bold;
+    
+    
+    
+}
+.port-menu ul li a:hover{
+    color:#4bcaff;
+    border:2px solid #4bcaff;
+    text-decoration: none;
+    
+}
+.image-grid img{
+    padding: 10px 0;
+    
+}
+/*default-section*/
+.default-section{
+    color: #fff;
+    background:#515f67;
+    padding: 40px 0;
+}
+.info-text{
+    padding: 10px 0;
+} 
+.info-text p{
+    text-align: justify;
+    font-size: 12px;
+    font-weight: normal;
+}
+.video-section{
+    padding: 25px 0;
+}
+.visit-button{
+    padding: 5px 0;
+}
+.btn-custom{
+    text-transform: uppercase;
+    color: #353f46;
+    font-weight: bold;
+    background: #515f67;
+    padding: 5px 20px;
+    border: 2px solid #353f46;
+    border-radius: none;
+}
+/*twitter section*/
+.twitter-section{
+    background: #4bcaff;
+    padding: 30px 0;
+    color: white;
+}
+.large-info p{
+    
+    font-size: 18px;
+    font-weight: normal;
+    padding: 5px 0;
+    text-align: justify;
+    
+}
+.large-info p a{
+    color:white;
+    text-decoration-style: none;
+    font-weight: bold;
+}
+.tweet-icon{
+    width: 50px;
+    height: 50px;
+    padding: 10px 0;
+    display: flex;
+    
+    
+
+}
+.tweet-icon i{
+    font-size: 30px;
+    color: white;
+    padding-left: 60%;
+}
+/*john-doe*/
+.john-section{
+    padding: 30px 0;
+    background: url("../../images/john.jpg");
+    background-size: cover;
+}
+.john-section p{
+    text-align: justify;
+    color: #fff;
+    font-size: 12px;
+}
+.social-icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.social-icon i{
+    color: white;
+    
+}
+/*testimonial section*/
+.testimonial-section{
+    padding: 15px 0;
+    color: #515f67;
+}
+.test-icon{
+    width:50px;
+    height: 50px;
+}
+
+.test-icon i{
+  
+    font-size: 40px;
+}
+.testarea-text p{
+    text-align: justify;
+    font-size: 15px;
+}
+.testarea-text h2{
+    font-size: 12px;
+    color: #4bcaff;
+    
+}
+/*form-area*/
+.contact-area{
+    background:url("../../images/fomr-bg.jpg");
+    background-size: cover;
+    padding: 30px 0;
+}
+.contact-area form input{
+    display: block;
+    height:30px;
+    background: transparent;
+    width: 100%;
+    border:2px solid white;
+   
+   
+}
+.contact-area form label{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: bold;
+}
+.info-text{
+    color:white;
+    padding: 10px 0;
+}
+.address h5{
+    font-size:12px;
+    
+}
+.name-div{
+    padding: 10px 0;
+}
+.mail-div{
+    padding: 10px 0;
+}
+.msg-area{
+    padding: 10px 0;
+}
+.submit-btn{
+    padding: 10px 0;
+}
+#message{
+    height: 150px;
+}
+.contact-area form input[type=submit]
+{
+    color: white;
+    background: #4bcaff;
+    border:none;
+    text-transform:uppercase;
+    height: 50px;
+}
+/*footer area */
+.footer-area{
+    padding: 20px 0;
+    background: #353f47;
+    color:#5e6a74;
+}
+.foot-list{
+    padding-top: 50px;
+}
+.copy{
+    padding-top: 50px;
+}
+.foot-list ul{
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.foot-list ul li a{
+    color:#5e6a74;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 5px 0;
+    float: left;
+ 
+}
