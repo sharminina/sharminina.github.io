@@ -152,6 +152,12 @@ p {
 .bg-red{
   background-color:#536DFE;
 }
+.bg-beet{
+  background-color: #880E4F;
+}
+.bg-tang{
+  background-color: #EF5350;
+}
 .form-control {
   background-color: transparent;
   border: 1px solid #999;
