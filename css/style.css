@@ -503,19 +503,38 @@ nav ul li a {
 }
 
 #portfolio .portfolio-container {
-  display: inline-block;
-  margin-bottom: 50px;
-  width: 100%;
+  /* display: inline-block; */
+  /* margin-bottom: 50px;
+  width: 100%; */
 }
 
 .portfolio-thumbnail {
   margin-bottom: 30px;
+  /* margin-left: 10px; */
   overflow: hidden;
-  min-height: 260px;
+  height: 300px;
+  padding-bottom: 30px !important;
+  /* object-fit: cover; */
+  -webkit-box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
+-moz-box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
+box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
+  /* overflow: hidden; */
 }
 
-.portfolio-thumbnail img {
-  max-width: 100%;
+.portfolio-thumbnail>img {
+  object-fit: contain !important;
+  
+  height: 270px !important;
+  }
+  .img-thumbnail{
+    height: 250px !important;
+  }
+.card-img-title{
+  padding-top: 10px;
+  font-size: 13px;
+  color: #834333;
+  padding-bottom: 10px;
+  text-transform: capitalize;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -590,12 +609,16 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  background-color: #EDBB99;
 }
 
 .contact-details {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.emailto{
+  color:#454545;
 }
 
 .contact-details li {
