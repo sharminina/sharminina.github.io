@@ -515,19 +515,20 @@ nav ul li a {
   height: 300px;
   padding-bottom: 30px !important;
   /* object-fit: cover; */
-  -webkit-box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
--moz-box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
-box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
+  -webkit-box-shadow: 1px 2px 2px 2px rgba(204,198,204,1);
+-moz-box-shadow: 1px 2px 2px 2px rgba(204,198,204,1);
+box-shadow: 1px 2px 2px 2px rgba(204,198,204,1);
   /* overflow: hidden; */
 }
 
 .portfolio-thumbnail>img {
   object-fit: contain !important;
   
-  height: 270px !important;
+  /* height: 270px !important; */
   }
   .img-thumbnail{
     height: 250px !important;
+    width: fit-content;
   }
 .card-img-title{
   padding-top: 10px;
@@ -566,6 +567,7 @@ box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
 
 .journal-block .journal-info img {
   max-width: 100%;
+  height: 250px;
 }
 
 .journal-block .journal-info .journal-txt {
@@ -573,8 +575,8 @@ box-shadow: 1px 2px 9px 7px rgba(204,198,204,1);
   position: relative;
 }
 
-.journal-block .journal-info .journal-txt h4 a {
-  display: block;
+.journal-block .journal-info .journal-txt h4  {
+  text-transform: uppercase;
   font-size: 19px;
   line-height: 24px;
   margin: 0 0 13px 0;
